@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-   <title></title>
-   <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Améliorée</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <h1>Un super titre</h1>
+    <header>
+        <h1>Un Super et Gigantesque Titre</h1>
+        <p>Bienvenue sur ma superbe page web !</p>
+    </header>
+    <nav>
+        <a href="#section1">Accueil</a>
+        <a href="#section2">À propos</a>
+        <a href="#section3">Contact</a>
+    </nav>
+    <main>
+        <section id="section1">
+            <h2>Section 1 : Introduction</h2>
+            <p>Waoooo cette alarme en cours est comme un manque de respect.</p>
+            <button class="btn" onclick="alert('Bonjour, vous avez cliqué sur le bouton !')">Cliquez-moi</button>
+        </section>
+        <section id="section2">
+            <h2>Section 2 : À propos</h2>
+            <p>Cette section parle de moi et de ce que je fais.</p>
+        </section>
+        <section id="section3">
+            <h2>Section 3 : Contact</h2>
+            <form>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Votre email">
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" placeholder="Votre message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Tous droits réservés</p>
+    </footer>
 </body>
 </html>
